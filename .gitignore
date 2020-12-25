@@ -36,7 +36,7 @@ hs_err_pid*
 
 # IDEA
 # ----
-!/.idea
+.idea
 /.idea/*
 !/.idea/codeStyles
 !/.idea/inspectionProfiles
