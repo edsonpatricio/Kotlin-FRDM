@@ -24,40 +24,22 @@ hs_err_pid*
 
 # Gradle
 # ------
+HELP.md
 .gradle
-/build
-/*/build
-/*/*/build
-/*/*/*/build
-/*/*/*/*/build
-/*/docs/src/samples/**/build
-/*/docs/src/snippets/**/build
-/*/internal-android-performance-testing/build-android-libs
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 # IDEA
 # ----
 .idea
-/.idea/*
-!/.idea/codeStyles
-!/.idea/inspectionProfiles
-!/.idea/icon.png
-!/.idea/icon_dark.png
-*/**/.idea
-*/**/.shelf
-.shelf
-/*.iml
-/*/*.iml
-/*/*/*.iml
-/*/*/*/*.iml
-/*/*/*/*/*.iml
-/out
-/*/out
-/*/*/out
-/*/*/*/out
-/*/*/*/*/out
-/.teamcity/target
-/gradle.ipr
-/gradle.iws
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 # jEnv
 # ----
@@ -82,3 +64,15 @@ hs_err_pid*
 
 # oh-my-zsh gradle plugin
 .gradletasknamecache
+
+### VS Code ###
+.vscode/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
