@@ -1,8 +1,5 @@
-package br.dev.edsonpatricio.kfrdm.ch01.listings
+package br.dev.edsonpatricio.kfrdm.listings
 
-import br.dev.edsonpatricio.kfrdm.mocks.Address
-import br.dev.edsonpatricio.kfrdm.mocks.Amount
-import br.dev.edsonpatricio.kfrdm.mocks.Bank
 import java.math.BigDecimal
 import java.util.*
 
@@ -43,3 +40,9 @@ interface AccountService {
         amount: Amount
     ): Amount?
 }
+
+// ##############################################################################
+
+interface Bank
+interface Amount
+interface Address
