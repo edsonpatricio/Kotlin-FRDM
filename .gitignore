@@ -76,3 +76,4 @@ out/
 .settings
 .springBeans
 .sts4-cache
+/gradle/wrapper/gradle-wrapper.jar
