@@ -1,8 +1,6 @@
-package br.dev.edsonpatricio.kfrdm.ch01.listings
-
-import br.dev.edsonpatricio.kfrdm.mocks.Address
-import br.dev.edsonpatricio.kfrdm.mocks.Amount
-import br.dev.edsonpatricio.kfrdm.mocks.Bank
+import br.dev.edsonpatricio.kfrdm.ch01.listings.mocks.Address
+import br.dev.edsonpatricio.kfrdm.ch01.listings.mocks.Amount
+import br.dev.edsonpatricio.kfrdm.ch01.listings.mocks.Bank
 import java.math.BigDecimal
 import java.util.*
 
